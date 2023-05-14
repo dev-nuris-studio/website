@@ -58,7 +58,8 @@ export default defineNuxtConfig({
     inject: true,
     useStylesheet: false,
     families: {
-      
+      Manrope: [400],
+      Urbanist: [400, 600, 700],
     }
   },
   runtimeConfig: {
