@@ -17,7 +17,7 @@ export default defineNuxtPlugin(() => {
         try {
           return await fetchPageBySlug({ client, slug, moduleMapping });
         } catch (error) {
-          console.error(error)
+          console.error(error);
         }
 
       },
