@@ -5,6 +5,8 @@
 </template>
 
 <script>
+    import ModuleStage from './ModuleStage.vue';
+
     export default {
         props: {
             modules: {
@@ -13,7 +15,7 @@
             }
         },
         components: {
-        
+            ModuleStage,
         },
     }
 </script>

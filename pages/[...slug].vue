@@ -1,9 +1,7 @@
 <template>
     <div class="the-page">
       <SeoKit />
-      <TheHeader />
       <DynamicPage v-if="data && data.articles" :page="data" />
-      <TheFooter />
     </div>
 </template>
 
@@ -12,6 +10,8 @@ const route = useRoute();
 const { $fetchPageBySlug } = useNuxtApp();
 const slug = !!route?.params?.slug ? '/' + route.params.slug.join('/') : '/';
 const {data} = useAsyncData(slug, async () => await $fetchPageBySlug(slug));
+
+console.log(slug, data)
 
 useSeoMeta({
   title: () => data?.value?.seo?.fields?.metaTitle,
