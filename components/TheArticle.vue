@@ -1,5 +1,5 @@
 <template>
-    <div class="the-article">
+    <div class="the-article" >
         <div class="the-article__inside">
             <TheModules v-if="article && article.modules" :modules="article.modules" />
         </div>
@@ -9,17 +9,11 @@
 <style lang="scss">
 
   .the-article {
-    margin-top: 40px;
-    margin-bottom: 40px;
-
-    &:last-child {
-      margin-bottom: 0;
+    
+    &--grey {
+        background-color: $grey-light;
     }
 
-    @include mq($min-width: $desktop) {
-      margin-top: 60px;
-      margin-bottom: 60px;
-    }
   }
 
 

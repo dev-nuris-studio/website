@@ -6,6 +6,8 @@
 
 <script>
     import ModuleStage from './ModuleStage.vue';
+    import ModuleTeaser from './ModuleTeaser.vue';
+    import ModuleImageText from './ModuleImageText.vue';
 
     export default {
         props: {
@@ -16,6 +18,8 @@
         },
         components: {
             ModuleStage,
+            ModuleTeaser,
+            ModuleImageText,
         },
     }
 </script>

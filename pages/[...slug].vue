@@ -11,8 +11,6 @@ const { $fetchPageBySlug } = useNuxtApp();
 const slug = !!route?.params?.slug ? '/' + route.params.slug.join('/') : '/';
 const {data} = useAsyncData(slug, async () => await $fetchPageBySlug(slug));
 
-console.log(slug, data)
-
 useSeoMeta({
   title: () => data?.value?.seo?.fields?.metaTitle,
   description: () => data?.value?.seo?.fields?.metaDescription,

@@ -1,7 +1,9 @@
 import contentful from 'contentful';
 import { fetchPageBySlug, fetchAndTransformNavigationByName } from '@content-app/core/dist/index.js';
+import ModuleTeaser from '@content-app/content-module_teaser/content-module';
 
 const moduleMapping = {
+  ModuleTeaser,
 }
 
 export default defineNuxtPlugin(() => {
