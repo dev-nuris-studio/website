@@ -8,6 +8,7 @@
     import ModuleStage from './ModuleStage.vue';
     import ModuleTeaser from './ModuleTeaser.vue';
     import ModuleImageText from './ModuleImageText.vue';
+    import ModuleGallery from './ModuleGallery.vue';
 
     export default {
         props: {
@@ -20,6 +21,7 @@
             ModuleStage,
             ModuleTeaser,
             ModuleImageText,
+            ModuleGallery,
         },
     }
 </script>
