@@ -12,6 +12,11 @@
   background-color: $white;
 }
 
+img {
+  vertical-align: text-bottom;
+  line-height: 0;
+}
+
 p {
   font-size: 18px;
   line-height: 28px;
