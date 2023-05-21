@@ -1,6 +1,6 @@
 <template>
     <div class="the-articles">
-      <TheArticle v-for="article in articles" :key="article.id" :article="article" />
+      <TheArticle v-for="article in articles" :key="article.id" :article="article" :class="{ 'the-article--grey': article.backgroundGrey }" />
       <slot></slot>
     </div>
 </template>

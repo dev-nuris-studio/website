@@ -5,6 +5,12 @@
 </template>
 
 <script>
+    import ModuleStage from './ModuleStage.vue';
+    import ModuleTeaser from './ModuleTeaser.vue';
+    import ModuleImageText from './ModuleImageText.vue';
+    import ModuleGallery from './ModuleGallery.vue';
+    import ModuleText from './ModuleText.vue';
+
     export default {
         props: {
             modules: {
@@ -13,7 +19,11 @@
             }
         },
         components: {
-        
+            ModuleStage,
+            ModuleTeaser,
+            ModuleImageText,
+            ModuleGallery,
+            ModuleText,
         },
     }
 </script>

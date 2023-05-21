@@ -12,10 +12,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon/favicon-16x16.png' },
         { rel: 'manifest', href: '/favicon/site.webmanifest' },
-        { rel: 'mask-icon', href: '/favicon/safari-pinned-tab.svg', color: '#5bbad5' }
+        { rel: 'mask-icon', href: '/favicon/safari-pinned-tab.svg', color: '#EDEAFA' }
       ],
       meta: [
-        { name: 'msapplication-TileColor', content: '#da532c' },
+        { name: 'msapplication-TileColor', content: '#EDEAFA' },
         { name: 'theme-color', content: '#ffffff' }
       ]
     }
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
-      siteName: '',
+      siteName: 'nuris.studio',
       siteDescription: '',
       language: 'de',
     }
