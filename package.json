@@ -19,7 +19,7 @@
     "@content-app/content-module_image-text": "^0.1.0",
     "@content-app/content-module_stage": "^0.2.2",
     "@content-app/content-module_teaser": "^0.4.1",
-    "@content-app/core": "^0.2.0",
+    "@content-app/core": "^0.3.0",
     "@contentful/rich-text-html-renderer": "^16.0.3",
     "@nuxtjs/google-fonts": "^3.0.0",
     "@yeger/vue-masonry-wall": "^3.4.4",

@@ -29,11 +29,17 @@
         margin-bottom: 80px;
       }
 
-      &__items {
-        @include mq($min-width: $desktop) {
-          
+      &:not(.module-teaser--masonry) {
+        .module-teaser__items {
+          @include mq($min-width: $desktop) {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+          }
         }
       }
+
+      
 
       &__teaser-border-item {
         margin-bottom: 16px;
