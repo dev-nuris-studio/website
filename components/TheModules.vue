@@ -9,6 +9,7 @@
     import ModuleTeaser from './ModuleTeaser.vue';
     import ModuleImageText from './ModuleImageText.vue';
     import ModuleGallery from './ModuleGallery.vue';
+    import ModuleText from './ModuleText.vue';
 
     export default {
         props: {
@@ -22,6 +23,7 @@
             ModuleTeaser,
             ModuleImageText,
             ModuleGallery,
+            ModuleText,
         },
     }
 </script>
