@@ -17,6 +17,8 @@
 <style lang="scss">
 
   .the-page {
+    width: 100%;
+    overflow: hidden;
 
     &__round-button {
       position: fixed;
