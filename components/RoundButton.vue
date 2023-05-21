@@ -14,6 +14,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.06);
     }
 
 </style>

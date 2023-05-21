@@ -5,7 +5,7 @@
 
             <TheLogo class="the-footer__the-logo" />
             <nav class="the-footer__navigation" v-if="navigation?.data?.value?.childs">
-                <template v-for="item in navigation.data.value.childs" :key="item.sys.id">
+                <template v-for="item in navigation.data.value.childs" :key="item.entry.sys.id">
                     <nuxt-link v-if="!item?.entry?.fields?.link" class="the-footer__link" :to="item.url">{{ item.name }}</nuxt-link>
                     <a v-if="!!item?.entry?.fields?.link" class="the-footer__link" :href="item.url" target="_blank">{{ item.name }}</a>
                 </template>
