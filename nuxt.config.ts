@@ -20,7 +20,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  ssr: false,
   site: {
     url: 'https://nuris.studio',
     name: 'nuris.studio',
