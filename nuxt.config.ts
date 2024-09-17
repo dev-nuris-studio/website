@@ -21,9 +21,12 @@ export default defineNuxtConfig({
     }
   },
   target: 'static',
-  extends: [
-    'nuxt-seo-kit'
-  ],
+  site: {
+    url: 'https://nuris.studio',
+    name: 'nuris.studio',
+    description: 'Wir konzipieren und entwickeln intelligente digitale Produkte.',
+    defaultLocale: 'de', // not needed if you have @nuxtjs/i18n installed
+  },
   hooks: {
     async 'nitro:config'(nitroConfig) {
       if (!nitroConfig) {
@@ -41,9 +44,7 @@ export default defineNuxtConfig({
     }
   },
   css: ['assets/styles/styles.scss'],
-  modules: [
-    '@nuxtjs/google-fonts'
-  ],
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/seo'],
   vite: {
     css: {
       preprocessorOptions: {
