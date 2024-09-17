@@ -66,7 +66,7 @@ export default defineNuxtConfig({
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '',
       siteName: 'nuris.studio',
-      siteDescription: '',
+      siteDescription: 'Wir konzipieren und entwickeln intelligente digitale Produkte.',
       language: 'de',
     }
   },
