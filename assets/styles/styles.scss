@@ -33,44 +33,49 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   text-rendering: optimizeLegibility;
   font-weight: 700;
   color: $black;
-  letter-spacing: 0% !important;
 }
 
 h1, .h1 {
   font-size: 40px;
   line-height: 56px;
-  letter-spacing: 140%;
+
 
   @include mq($min-width: $desktop) {
     font-size: 48px;
     line-height: 67px;  
+    letter-spacing: 140%;
   }
 }
 
 h2, .h2 {
   font-size: 32px;
   line-height: 44px;
-  letter-spacing: 120%;
+  
 
   @include mq($min-width: $desktop) {
     font-size: 48px;
     line-height: 67px;  
+    letter-spacing: 120%;
   }
 }
 
 h3, .h3 {
   font-size: 32px;
   line-height: 44px;
-  letter-spacing: 140%;
+  
 
   @include mq($min-width: $desktop) {
     font-size: 40px;
     line-height: 56px;  
+    letter-spacing: 140%;
   }
 }
 
 h4, h5, h6, .h4, .h5, .h6 {
   font-size: 22px;
   line-height: 30px;
-  letter-spacing: 120%; 
+  
+  @include mq($min-width: $desktop) {
+    letter-spacing: 120%; 
+  }
 }
