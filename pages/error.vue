@@ -1,6 +1,20 @@
 <template>
     <div class="the-page">
       <TheHeader />
+      <TheArticles>
+
+        <TheArticle>
+
+            <div class="module-text">
+
+                <h1>Leider wurde keine Seite gefunden. :(</h1>
+
+            </div>
+
+
+        </TheArticle>
+
+      </TheArticles>
       <ContactBox />
       <TheFooter />
       <RoundButton class="the-page__round-button" :href="`mailto:${email}`">
