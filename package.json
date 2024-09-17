@@ -22,8 +22,8 @@
     "@content-app/content-module_text": "^0.1.0",
     "@content-app/core": "^0.3.0",
     "@contentful/rich-text-html-renderer": "^16.0.3",
-    "@nuxtjs/google-fonts": "^3.0.0",
-    "@yeger/vue-masonry-wall": "^3.4.4",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@yeger/vue-masonry-wall": "^5.0.15",
     "sass": "^1.61.0",
     "sass-loader": "^13.2.2",
     "sass-mediaqueries": "^1.6.1"
